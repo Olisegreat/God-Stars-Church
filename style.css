@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Mali:wght@200;300;400;500&display=swap'); 
+
+  body{
+    font-family: 'Bebas Neue', cursive;
+  }
+  #full-navbar{
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .name{
+    color: #efa005;
+  }
+  #slider {
+    z-index: 0;
+     transition: background 0.5s ease;
+     position: relative;
+     display: flex;
+     background-position: center ,
+        center ,
+        center ;
+     background-size: contain,
+        cover,
+        cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     width:100%;
+     justify-content: center;
+     overflow: hidden;
+     flex-wrap: wrap;  
+     background-color: #d3d5ec;
+  }
+  .slider1{
+    position:relative;
+    height: 100%;
+    width:100%;
+    transition: 1s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+  }
+  .slider-1{
+    width: 100%;
+    background-image: url(img/IMG-20221222-WA0026.jpg);
+  }
+  .slider-2{
+    width: 100%;
+    background-image: url(img/IMG-20221222-WA0025.jpg);
+    background-position: top;
+  }
+  .slider-3{
+    width: 100%;
+    background-image: url(img/wspa-img.jpg);
+  }
+  .slider-4{
+    width: 100%;
+    background-image: url(img/IMG-20221222-WA0022.jpg);
+    background-position: initial;
+  }
+.custom_menu-btn{
+  display: none;
+}
+.custom_menu-btn span{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin: 2.5px 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 15px;
+  }
+  .custom_menu-btn .s-2 {
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+  }
+  .custom_menu-btn.rotate .s-1 {
+    -webkit-transform: rotate(45deg) translate(4px, 4px);
+            transform: rotate(45deg) translate(4px, 4px);
+  }
+  
+  .custom_menu-btn.rotate .s-2 {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+            opacity: 0;
+  }
+  
+  .custom_menu-btn.rotate .s-3 {
+    -webkit-transform: rotate(-45deg) translate(3px, -3px);
+            transform: rotate(-45deg) translate(3px, -3px);
+  }
+.overlay-content{
+  display: flex;
+  font-size: 12px;
+}
+.overlay-content li{
+  padding: 0 5px;
+}
+
+.each-slide{
+  opacity: 0.5;
+  background-color: blue;
+ animation: fadeIn 5s;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+
+
+  @keyframes fadeIn {
+    0% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+
+.vision{
+  font-family: 'Bebas Neue', cursive;
+}
+.under_vision_text{
+  font-size: 12px;
+  color: #ffff;
+}
+.mini-vision{
+  color: #000;
+}
+.overlay a{
+  color: #ffff;
+  font-size: 18px;
+}
+.name p{
+  line-height: 1;
+}
+.about-the-church p:nth-of-type(3){
+  font-family: 'EB Garamond', serif;
+}
+.about-the-church p:nth-of-type(5){
+  font-family: 'EB Garamond', serif;
+}
+.pillar_and_core-values ul{
+  font-family: 'EB Garamond', serif;
+  list-style-type: circle;
+  margin-left: 5px;
+  line-height: 1.3;
+}
+.line{
+  border-radius: 10px;
+}
+.call-span{
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  color: rgb(87, 84, 84);
+}
+.telephone-icon{
+  font-size: 10px;
+}
+.weekdays-cont{
+  background-color: rgb(170, 164, 164);
+  color: #fff;
+  padding-top: 10px;
+}
+.weekdays-cont:hover{
+  background: #979eed;
+}
+.weekdays-activity p, .pastor-name{
+  font-family: 'EB Garamond', serif;
+  /* font-weight: ; */
+}
+.footer_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          /* justify-content: center; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_social a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin: 0 2.5px;
+  font-size: 18px;
+}
+
+.footer_social a:hover {
+  color: #1d4ed8;
+}
+#footer{
+  font-family: 'EB Garamond', serif;
+}
+.offering-wrapper p, .read-how-to-pay, .end{
+  font-family:  'EB Garamond', serif;
+}
+.activities div{
+  height: 200px;
+     width: 100%;
+     font-size: 1.5rem;
+     text-align:center;
+     padding: 33px 0;
+     margin: 20px;
+}
+.activities div:hover{
+  background-color: #e7d0a1;
+}
+#btn-div button:nth-of-type(1){
+  /* box-shadow:  1px 1px 1px 1px #000000; */
+  background: #1d4ed8;
+  width: 95px;
+}
+#btn-div button:nth-of-type(2){
+  text-shadow: 2px 2px 4px #000000;
+}
+.swiper-wrapper{
+  height: 75vh;
+  padding: 10px;
+  /* box-shadow: 10px 64px 80px 20px rgba(0, 0, 0, 0.24); */
+}
+.swiper-slide,.swiper-slide1{
+  width: 25%;
+  margin: 10px;
+  height: 100%;
+  cursor: pointer;
+}
+.swiper-slide:hover{
+  scale: 1.1;
+  transition: 0.2s;
+}
+.swiper-slide1:hover{
+  scale: 1.1;
+  transition: 0.2s;
+}
+.swiper-slide img,.swiper-slide1 img{
+  height: 100%;
+}
+#offering-text{
+  padding: 10px;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+}
+#offering-text p:nth-of-type(1){
+  font-family: 'Bebas Neue', cursive;
+}
