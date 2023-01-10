@@ -26,7 +26,8 @@
      justify-content: center;
      overflow: hidden;
      flex-wrap: wrap;  
-     background-color: #d3d5ec;
+     background-color: #121d96;
+     /* background-color: #656ed3; */
   }
   .slider1{
     position:relative;
@@ -217,7 +218,7 @@
 }
 #btn-div button:nth-of-type(1){
   /* box-shadow:  1px 1px 1px 1px #000000; */
-  background: #1d4ed8;
+  background: #5f83e6;
   width: 95px;
 }
 #btn-div button:nth-of-type(2){
@@ -248,7 +249,7 @@
 #offering-text{
   padding: 10px;
   font-family: 'EB Garamond', serif;
-  font-size: 14px;
+  font-size: 14 px;
 }
 #offering-text p:nth-of-type(1){
   font-family: 'Bebas Neue', cursive;
