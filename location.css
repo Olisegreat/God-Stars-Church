@@ -71,3 +71,8 @@ body{
   .line{
     border-radius: 10px;
   }
+  #location-wrapper{
+    background-image: url(img/blue\ and\ white\ background.png);
+    background-position: center;
+    background-size: cover;
+  }
