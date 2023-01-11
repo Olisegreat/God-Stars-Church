@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Mali:wght@200;300;400;500&display=swap'); 
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+.mobl-menu {
+     clip-path: circle(10px at 100% -10%);
+     transition: 2s;
+     background: #eab0a5;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     z-index: 100;
+     top: -68px;
+     right: 2px;
+     margin-top: 68px;
+     background: #979eed;
+     text-align: center;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: fixed;
+ }
+.mobl-menu li{
+    margin-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: 0.3s;
+    font-weight: 600;
+}
+#list-hidden{
+    height: 70%;
+}
+ .show {
+     clip-path: circle(1500px at 100% -30%);
+     height: 100%;
+ }
+  .custom_menu-btn .s-2 {
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+  }
+  .custom_menu-btn.rotate .s-1 {
+    -webkit-transform: rotate(45deg) translate(4px, 4px);
+            transform: rotate(45deg) translate(4px, 4px);
+  }
+  
+  .custom_menu-btn.rotate .s-2 {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+            opacity: 0;
+  }
+  
+  .custom_menu-btn.rotate .s-3 {
+    -webkit-transform: rotate(-45deg) translate(3px, -3px);
+            transform: rotate(-45deg) translate(3px, -3px);
+  }
+  .close-icon{
+      font-size: 22px;
+      color: #fff;
+  }
+  .our-story div:nth-of-type(2), .offering-wrapper span:nth-of-type(2), .end, #footer{
+    font-family: 'EB Garamond', serif;
+  }
+  iframe{
+      filter: invert(100%);
+  } 
+  .line{
+    border-radius: 10px;
+  }

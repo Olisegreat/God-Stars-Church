@@ -42,10 +42,10 @@
             </div>
             <div class="overlay flex">
               <ul class="overlay-content">
-                <li><a href="">Home </a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">Location</a></li>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="location.html">Location</a></li>
               </ul>
               <div class="header-socials">
                 <a
@@ -75,8 +75,8 @@
           >
             <p class="text-3xl text-white lg:text-6xl">GSA "WHERE STARS ARE MADE"</p>
             <div class="w-full lg:w-4/12 flex justify-center" id="btn-div">
-              <button class="p-2 text-white">READ MORE</button>
-              <button class="p-2 text-white ml-4">Get in Touch</button>
+              <button class="p-2 text-white"><a href="about.html">READ MORE</a></button>
+              <button class="p-2 text-white ml-4"><a href="contact.html">Get in Touch...</a></button>
             </div>
           </div>
       </div>        
@@ -216,13 +216,18 @@
       <div class="text-center my-12">
         <p class="text-3xl">Our Ministers / Pastors</p>
         <div class="line w-1/5 h-1 my-1 m-auto mb-6 bg-blue-700"></div>
-              <div class="swiper-wrapper w-full flex justify-center"> 
+              <div class="swiper-wrapper w-full hidden md:flex justify-center"> 
                 <!-- Pastor Pictures  -->
-                <div class="swiper-slide h-5/6"><img src="img/frd1.jpg" alt=""></div>
+                <div class="swiper-slide1 h-5/6"><img src="img/frd1.jpg" alt=""></div>
                 <div class="swiper-slide1 h-5/6"><img src="img/aq (2) - Copy.jpg" alt=""></div>
                 <div class="swiper-slide1 h-5/6"><img src="img/aq (3) - Copy.jpg" alt=""></div>
-              
+                
               </div> 
+              <div class="w-full flex justify-center" id="mobile-pastor-pic">
+                <div class="w-[50%] swiper-slide">
+                  <img src="./img/frd1.jpg" alt="pastor-image" class="h-[400%]" />
+                </div>
+              </div>
         <div class="mt-4">
             <p>RESIDENT PASTOR</p>
             <p class="pastor-name">Pastor Fred Anwili Olise</p>
@@ -284,7 +289,8 @@
             Powered by
             <a href="https://github.com/Olisegreat" class="text-orange-600"
               >Olise</a
-            >
+            > & 
+            <a href="https://github.com/goodylove" class="text-orange-600">Goody</a>
           </p>
         </div>
        

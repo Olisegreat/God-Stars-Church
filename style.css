@@ -62,8 +62,8 @@
 }
 .custom_menu-btn span{
     display: block;
-    width: 20px;
-    height: 2px;
+    width: 25px;
+    height: 3px;
     background-color: #fff;
     margin: 2.5px 0;
     -webkit-transition: all 0.3s;
@@ -227,7 +227,11 @@
 .swiper-wrapper{
   height: 75vh;
   padding: 10px;
+  display: flex;
   /* box-shadow: 10px 64px 80px 20px rgba(0, 0, 0, 0.24); */
+}
+#mobile-pastor-pic{
+  display: none;
 }
 .swiper-slide,.swiper-slide1{
   width: 25%;
