@@ -21,6 +21,11 @@ setInterval(() => {
   showSlider();
 }, 3000);
 
+// mobile navbar 
+menuBar.addEventListener("click",()=>{
+  menuBar.classList.toggle("rotate")
+  mainMenu.classList.toggle("menu_width")
+})
 
 let slideNow = 0;
 
@@ -43,8 +48,3 @@ setInterval(() => {
     doFunction()   
 }, 5000);
 
-// mobile navbar 
-menuBar.addEventListener("click",()=>{
-  menuBar.classList.toggle("rotate")
-  mainMenu.classList.toggle("menu_width")
-})
