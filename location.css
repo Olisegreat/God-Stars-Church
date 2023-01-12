@@ -62,7 +62,10 @@ body{
       font-size: 22px;
       color: #fff;
   }
-  .our-story div:nth-of-type(2), .offering-wrapper span:nth-of-type(2), .end, #footer{
+  .our-story div:nth-of-type(2), #footer{
+    font-family: 'Inter', sans-serif;
+  }
+  .offering-wrapper span:nth-of-type(2), .end{
     font-family: 'EB Garamond', serif;
   }
   iframe{

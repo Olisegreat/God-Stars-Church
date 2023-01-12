@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Mali:wght@200;300;400;500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Inter:wght@100;200;300;400&display=swap'); 
+
 
   body{
     font-family: 'Bebas Neue', cursive;
@@ -40,7 +41,8 @@
   }
   .slider-1{
     width: 100%;
-    background-image: url(img/IMG-20221222-WA0026.jpg);
+    background-image: url(img/IMG-20221222-WA0022.jpg);
+    
   }
   .slider-2{
     width: 100%;
@@ -53,7 +55,7 @@
   }
   .slider-4{
     width: 100%;
-    background-image: url(img/IMG-20221222-WA0022.jpg);
+    background-image: url(img/IMG-20221222-WA0026.jpg);
     background-position: initial;
   }
 .custom_menu-btn{
@@ -131,13 +133,13 @@
   line-height: 1;
 }
 .about-the-church p:nth-of-type(3){
-  font-family: 'EB Garamond', serif;
+  font-family: 'Inter', sans-serif;
 }
 .about-the-church p:nth-of-type(5){
-  font-family: 'EB Garamond', serif;
+  font-family: 'Inter', sans-serif;
 }
 .pillar_and_core-values ul{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Inter', sans-serif;
   list-style-type: circle;
   margin-left: 5px;
   line-height: 1.3;
@@ -146,7 +148,7 @@
   border-radius: 10px;
 }
 .call-span{
-  font-family: 'EB Garamond', serif;
+  
   font-weight: 700;
   color: rgb(87, 84, 84);
 }
@@ -162,7 +164,7 @@
   background: #979eed;
 }
 .weekdays-activity p, .pastor-name{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Inter', sans-serif;
 }
 .footer_social {
   display: -webkit-box;
@@ -197,10 +199,14 @@
   color: #1d4ed8;
 }
 #footer{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
 }
 .offering-wrapper p, .read-how-to-pay, .end{
-  font-family:  'EB Garamond', serif;
+  font-family:  'Inter', sans-serif;
+}
+.end{
+  font-family: 'EB Garamond', serif;
 }
 .activities div{
   height: 200px;
